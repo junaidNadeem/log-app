@@ -15,7 +15,7 @@ exports.homeRoute = res => {
 exports.logsRoute = res => {
     const stream = fs.createReadStream('test.log', {
         start: 0,
-        end: 10000,
+        end: 100000,
     });
 
     stream.on('error', err => {
