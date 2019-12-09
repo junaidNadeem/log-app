@@ -9,11 +9,20 @@
 # / returns about routes
 
 # URL for Log Files is /logs
-- Optional parameter (filter show logs above than the mentioned start date) for /log is ?start_date 
+- start_date:
+Optional parameter
+Show logs above than the mentioned start date
 Example: /log?start_date=2010
-- Optional parameter (filter show logs above than the mentioned end date) for /log is ?end_date 
+
+- end_date:
+Optional parameter
+Show logs above than the mentioned end date
 Example: /log?end_date=2019
-- Optional parameter (filter show logs above than the mentioned size) for /log is ?size 
+
+- size:
+Optional parameter
+Show logs above than the mentioned size
 Example: /log?size=100
-- Optional parameter (filter All three) for /log is ?start_date&end_date&size 
+
+- Filter based on all paramters:
 Example: /log?start_date=2010&end_date=2019&size=5
