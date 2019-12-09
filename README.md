@@ -10,19 +10,19 @@
 
 # URL for Log Files is /logs
 - start_date:
-Optional parameter
-Show logs above than the mentioned start date
-- Example: /log?start_date=2010
+  - Optional parameter
+  - Show logs above than the mentioned start date
+  - Example: /log?start_date=2010
 
 - end_date:
-Optional parameter
-Show logs above than the mentioned end date
-- Example: /log?end_date=2019
+  - Optional parameter
+  - Show logs above than the mentioned end date
+  - Example: /log?end_date=2019
 
 - size:
-Optional parameter
-Show logs above than the mentioned size
-- Example: /log?size=100
+  - Optional parameter
+  - Show logs above than the mentioned size
+  - Example: /log?size=100
 
 - Filter based on all paramters:
-- Example: /log?start_date=2010&end_date=2019&size=5
+  - Example: /log?start_date=2010&end_date=2019&size=5
